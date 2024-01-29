@@ -15,9 +15,11 @@ body{
 }
 .header {
   display: flex;
-  background-color: rgb(9, 9, 81);
-  margin: 0px;
-  color: white;
+  background-color: #1f2937;
+  margin: 0;
+  padding: 0 20px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
 }
 p {
   font-weight: bold;
@@ -36,21 +38,28 @@ a {
 }
 .ran {
   display: flex;
-  background-color:rgb(108, 108, 193) ;
+  background-color:rgb(255, 255, 255) ;
   color: white;
+  margin: 30px 0;
+  justify-content: center;
+  align-items: center;
 }
 .random {
   display: flex;
   flex-direction: column;
   max-width: 50vh;
   flex-wrap: wrap;
-  font-style: italic;padding: 5% 10%;
+  font-weight: bolder;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 6%;
 }
 .img1 {
-   width: 300px;
-   height: 250px;
-   margin-left: auto;
-   margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width:  50vh;
+  background-color: white;
 }
 .info {
   display: flex;
@@ -94,12 +103,12 @@ img {
   padding: 10px 10px;
   padding-left: 7%;
   color: white;
-  background-color: rgb(105, 105, 245);
+  background-color: #95c1ff;
 }
 
 button {
   background-color: rgb(210, 48, 48);
-  color: white;
+  color: #ffffff;
   padding: 6px;
   border-radius: 10px;
   padding: 10px;
@@ -107,11 +116,14 @@ button {
 
 }
 button:hover {
-  background-color: rgb(190, 81, 69);
+  background-color: rgb(70, 235, 111);
 }
-
+button:active {
+  background-color: #da7a36;
+  padding: 10px;
+}
 .copyright {
-  background-color: rgb(9, 9,81);
+  background-color: #1f2937;
   margin: 0%;
   text-align: center;
   color: white;
